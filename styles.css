@@ -1,0 +1,121 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: snow;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(90deg, #093028, #237A57)
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    box-shadow: 1px 1px 10px 2px #fff;
+    margin-bottom: 65px;
+
+}
+
+header ul{
+    display: flex;
+}
+
+header ul li {
+    padding: 12px;
+
+}
+header ul li a{
+    transition: 300ms;
+}
+header ul li a:hover{
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.conteiner {
+    text-align: center;
+}
+
+.conteiner .name h1 {
+    font-size: 70px;
+    margin: 25px;
+}
+
+.conteiner .name h5 {
+    font-size: 35px;
+    margin: 25px
+}
+
+#about p {
+    max-width: 600px;
+    margin: 0 auto;
+    color: azure;
+}
+
+.form{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+
+}
+.form input{
+    width: 50%;
+    margin: 0 auto;
+    color: black;
+    padding: 5px 10px;
+    border: none;
+}
+.form button{
+    width: 17%;
+    margin: 5px;
+    padding: 5px 10px;
+    color: black;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+
+}
+.form p {
+    margin: 5px;
+}
+
+#arrow i{
+    color: #fff
+}
+#arrow {
+    font-size: 30px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite;
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+#animation{
+    transition: 300ms;
+}
+
+.active{
+    display: block !important;
+}
