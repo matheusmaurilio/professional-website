@@ -119,3 +119,11 @@ header ul li a:hover{
 .active{
     display: block !important;
 }
+
+footer {
+    font-size: 11px;
+    text-align: center;
+    color: black;
+    margin-top: 85px;
+    
+}
