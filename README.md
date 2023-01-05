@@ -4,5 +4,5 @@ Site criado para divulgar o trabalho de um profissional dev
 
 ## Stacks
 
--HTML
--CSS
+- HTML
+- CSS
