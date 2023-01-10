@@ -25,7 +25,7 @@ header{
     justify-content: space-between;
     padding: 5px;
     box-shadow: 1px 1px 10px 2px #fff;
-    margin-bottom: 65px;
+    margin-bottom: 50px;
 
 }
 
@@ -53,12 +53,12 @@ header ul li a:hover{
 
 .conteiner .name h1 {
     font-size: 70px;
-    margin: 25px;
+    margin-top: 5px;
 }
 
 .conteiner .name h5 {
     font-size: 35px;
-    margin: 25px
+    margin: 10px
 }
 
 #about p {
@@ -142,7 +142,7 @@ header ul li a:hover{
 footer {
     font-size: 11px;
     text-align: center;
-    margin-top: 85px;
+    margin-top: 10% ;
     
 }
 
