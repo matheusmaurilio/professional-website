@@ -31,6 +31,8 @@ header{
 
 header ul{
     display: flex;
+    align-items: center;
+    font-size: 18px;
 }
 
 header ul li {
@@ -42,7 +44,7 @@ header ul li a{
 }
 header ul li a:hover{
     color: greenyellow;
-    text-decoration: underline;
+    
 }
 
 .conteiner {
@@ -77,6 +79,7 @@ header ul li a:hover{
     color: black;
     padding: 5px 10px;
     border: none;
+    border-radius: 5px 0px 0px 5px;
 }
 .form button{
     width: 17%;
@@ -86,8 +89,24 @@ header ul li a:hover{
     font-weight: 500;
     cursor: pointer;
     border: none;
+    transition: all 0.3s;
+    color: #fff;
+    background-color: #000;
+
+    background-size: 200% 100%;
+    background-position: right bottom;
+
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -4px;
 
 }
+
+.form button:hover{
+    background-color: #04221c;
+    color: #fff;
+}
+
+
 .form p {
     margin: 5px;
 }
@@ -126,3 +145,4 @@ footer {
     margin-top: 85px;
     
 }
+
