@@ -118,14 +118,14 @@ footer {
 }
 
 .conteiner-3{
-    padding: 6rem;
+    padding: 4rem;
     border: 1px solid #000;
     border-radius: 1rem;
 }
 
 h3{
     font-size: 5rem;
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     color: #000;
 }
 
@@ -136,6 +136,13 @@ h4{
 
 p{
     font-size: 1.1rem;
+}
+
+#p-final{
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    align-items: center;
+    opacity: 0.6;
 }
 
 @media only screen and ( max-width: 480px){
