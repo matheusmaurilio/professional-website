@@ -26,6 +26,7 @@ header{
     padding: 5px;
     box-shadow: 1px 1px 10px 2px #fff;
     margin-bottom: 50px;
+    background-color: #fff;
 
 }
 
@@ -39,13 +40,19 @@ header ul li {
     padding: 12px;
 
 }
-header ul li a{
+
+.icons{
+    width: 48px;
+    height: 48px;
     transition: 300ms;
+    fill: #000 ;
+  }
+  
+.icons:hover {
+    opacity: 0.7;
+    fill: #093028;
 }
-header ul li a:hover{
-    color: greenyellow;
-    
-}
+  
 
 .conteiner {
     text-align: center;
@@ -67,55 +74,11 @@ header ul li a:hover{
     color: azure;
 }
 
-.form{
-    width: 40%;
-    margin: 0 auto;
-    margin-top: 30px;
-
-}
-.form input{
-    width: 50%;
-    margin: 0 auto;
-    color: black;
-    padding: 5px 10px;
-    border: none;
-    border-radius: 5px 0px 0px 5px;
-}
-.form button{
-    width: 17%;
-    margin: 5px;
-    padding: 5px 10px;
-    color: black;
-    font-weight: 500;
-    cursor: pointer;
-    border: none;
-    transition: all 0.3s;
-    color: #fff;
-    background-color: #000;
-
-    background-size: 200% 100%;
-    background-position: right bottom;
-
-    border-radius: 0px 5px 5px 0px;
-    margin-left: -4px;
-
-}
-
-.form button:hover{
-    background-color: #04221c;
-    color: #fff;
-}
-
-
-.form p {
-    margin: 5px;
-}
-
 #arrow i{
     color: #fff
 }
 #arrow {
-    font-size: 30px;
+    font-size: 50px;
     cursor: pointer;
     animation: blink 1s steps(5, start) infinite;
 }
@@ -142,7 +105,77 @@ header ul li a:hover{
 footer {
     font-size: 11px;
     text-align: center;
-    margin-top: 10% ;
+    margin-top: 15% ;
     
 }
 
+.conteiner-2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.conteiner-3{
+    padding: 6rem;
+    border: 1px solid #000;
+    border-radius: 1rem;
+}
+
+h3{
+    font-size: 5rem;
+    margin-bottom: 4rem;
+    color: #000;
+}
+
+h4{
+    font-size: 1.7rem;
+    color: #000;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+@media only screen and ( max-width: 480px){
+
+    .icons{
+        width: 39px;
+        height: 39px;
+        transition: 300ms;
+        fill: #000 ;
+      }
+      
+    .icons:hover {
+        opacity: 0.7;
+        fill: #093028;
+    }
+
+    .conteiner .name h1 {
+        font-size: 70px;
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .conteiner .name h5 {
+        font-size: 27px;
+        margin: 10px;
+        margin-bottom: 50px;
+    }
+
+    #arrow {
+        font-size: 50px;
+        cursor: pointer;
+        animation: blink 1s steps(5, start) infinite;
+        margin-bottom: 30px;
+    }
+
+    .conteiner-3{
+        border-radius: 2rem;
+    }
+
+    .conteiner-2{
+        flex-direction: column;
+    }
+}
